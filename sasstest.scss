@@ -1,0 +1,9 @@
+@mixin blue_button{
+	background: #3498db;
+	color: #ecf0f1;
+	border-radius: 10px;
+}
+
+.button{
+	@include blue_button;
+}
